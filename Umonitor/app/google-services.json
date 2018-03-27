@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "628575475795",
+    "firebase_url": "https://umonitor-b1291.firebaseio.com",
+    "project_id": "umonitor-b1291",
+    "storage_bucket": "umonitor-b1291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628575475795:android:338c47532279820e",
+        "android_client_info": {
+          "package_name": "com.ram.umonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628575475795-oc4tis75j7cqeagjbpelnv39cec36up0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ram.umonitor",
+            "certificate_hash": "5e1b2bf0bbc63846f5352e7155b56d846430974f"
+          }
+        },
+        {
+          "client_id": "628575475795-m9j8shp8266v2h539e0c0agu50r8cqg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm72CLVhu5R17ThyytjCNGUmG2kU0rzFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628575475795-m9j8shp8266v2h539e0c0agu50r8cqg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

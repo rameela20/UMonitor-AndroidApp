@@ -1,0 +1,140 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@android:color/holo_blue_light"
+    >
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="18dp"
+            android:text="Treatments"
+            android:gravity="center"
+            android:layout_span="6"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/bedNoText"
+            android:text="Bed No."
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/testText"
+            android:text="Drug"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/resultText"
+            android:text="Dosage"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="1"
+            android:id="@+id/textView1"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test1Text"
+            android:text="Paracetomol"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:text="2 per 6 hours"
+            android:id="@+id/result1Text"
+            android:gravity="center_horizontal"/>
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:checked="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="2"
+            android:id="@+id/textView2"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test2Text"
+            android:text="Amoxicilin"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:text="2 per 6 hours"
+            android:id="@+id/result2Text"
+            android:gravity="center_horizontal"/>
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:checked="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="3"
+            android:id="@+id/textView3"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test3Text"
+            android:text="Cephalexin"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:text="2 per 8 hours"
+            android:id="@+id/result3Text"
+            android:gravity="center_horizontal"/>
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:checked="true"
+            />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:text="Back to home"
+        android:width="100dp"
+        />
+
+</TableLayout>

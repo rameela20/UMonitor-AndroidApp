@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ram.umonitor.fragments.Examination"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:width="80dp"
+        android:text="Type" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeSpinner"
+        android:layout_toRightOf="@id/typeText"
+        android:background="#ffffff"
+        android:dropDownWidth="200dp"
+        android:entries="@array/array_examination_type"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/typeText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:width="80dp"
+        android:text="Description" />
+    <EditText
+        android:id="@+id/descEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/descText"
+        android:background="#ffffff"
+       android:width="350dp"
+        android:layout_alignTop="@id/typeSpinner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:inputType="textMultiLine"
+
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/descText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@android:drawable/arrow_down_float"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/examinationlistView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/addBtn"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center" />
+
+    <Button
+    android:id="@+id/removeSelectedBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/addBtn"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="120dp"
+    android:layout_toRightOf="@id/examinationlistView"
+    android:background="@android:drawable/ic_delete"
+
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="80dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelBtn"
+        android:text="Cancel"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>

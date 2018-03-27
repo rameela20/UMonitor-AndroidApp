@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ram.umonitor.fragments.InitialAssessment"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageChart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="17dp"
+        android:src="@mipmap/ic_chart"
+        android:layout_alignBottom="@+id/imageBP"
+        android:layout_toRightOf="@+id/imageTemp"
+        android:layout_toEndOf="@+id/imageTemp"
+        android:layout_marginStart="17dp" />
+
+    <ImageView
+        android:id="@+id/imageTemp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_bp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/imageBP"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/ic_pulse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

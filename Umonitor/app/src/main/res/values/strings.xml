@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">U-Monitor</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_mo">MOActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Periodical_Assessment">Periodical Assessment</string>
+    <string name="submitButtonName">Submit</string>
+    <string name="initial_assessmentTitle">Initial Assessment</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_in">Sign In</string>
+
+    <string-array name="array_hydration_type">
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+    <string-array name="array_history_type">
+        <item>Medical history</item>
+        <item>Complaint history</item>
+        <item>Drug History</item>
+    </string-array>
+    <string-array name="array_allergy_type">
+        <item>Drug Allergy</item>
+        <item>Food Allergy</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="array_examination_type">
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>Fractures</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="array_drug_type">
+        <item>Paracetomol</item>
+        <item>Domperidone</item>
+        <item>Amoxicilin</item>
+        <item>Ventolin</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nurse">NurseActivity</string>
+    <string name="title_activity_consultant">ConsultantActivity</string>
+    <string name="title_activity_patient">PatientActivity</string>
+</resources>

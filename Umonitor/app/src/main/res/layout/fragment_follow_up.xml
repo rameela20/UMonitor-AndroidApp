@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ram.umonitor.fragments.Assessment"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/assessmentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Follow Up"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dischargeButton"
+        android:text="Discharge"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admitButton"
+        android:text="Admit to Ward"
+        android:width="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaveButton"
+        android:text="Leave Against"
+        android:width="300dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferButton"
+        android:text="Transfer"
+        android:width="300dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

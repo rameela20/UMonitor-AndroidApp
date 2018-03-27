@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ram.umonitor.fragments.InitialAssessment"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/initialAssessTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Initial Assessment"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageEye"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="300dp"
+        android:src="@drawable/ic_eye"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <EditText
+        android:id="@+id/eyeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageEye"
+        android:layout_alignLeft="@+id/imageEye"
+        android:layout_alignStart="@+id/imageEye"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Eye Level"
+        android:background="#ffffff"
+        android:width="100dp"/>
+    <ImageView
+        android:id="@+id/imageVerbal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="300dp"
+        android:src="@drawable/ic_verbal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <EditText
+        android:id="@+id/verbalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageVerbal"
+        android:layout_alignLeft="@+id/imageVerbal"
+        android:layout_alignStart="@+id/imageVerbal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Verbal Level"
+        android:background="#ffffff"
+        android:width="100dp"
+        />
+    <ImageView
+        android:id="@+id/imageMotor"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="300dp"
+        android:src="@drawable/ic_motor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <EditText
+        android:id="@+id/motorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageMotor"
+        android:layout_alignLeft="@+id/imageMotor"
+        android:layout_alignStart="@+id/imageMotor"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Motor Level"
+        android:background="#ffffff"
+        android:width="100dp"
+        />
+    <TextView
+        android:id="@+id/gcsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="300dp"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="GCS"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/gcsValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gcsText"
+        android:layout_alignLeft="@+id/gcsText"
+        android:layout_alignStart="@+id/gcsText"
+        android:layout_toRightOf="@id/gcsText"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:text="  /15"
+        android:textSize="22dp"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:id="@+id/imageHydration"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="300dp"
+        android:src="@drawable/ic_hydration"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+    <Spinner
+        android:id="@+id/hydrationSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageHydration"
+        android:layout_alignLeft="@+id/imageHydration"
+        android:layout_alignStart="@+id/imageHydration"
+        android:layout_toRightOf="@id/imageHydration"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:entries="@array/array_hydration_type"
+        android:background="#ffffff"
+/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+
+        android:layout_alignParentLeft="true"
+        android:text="Save"
+       />
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="100dp"
+
+        android:layout_alignParentRight="true"
+        android:text="Cancel"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_assessment"
+            android:icon="@drawable/ic_assessment"
+            android:title="Assessment" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_allergies"
+            android:icon="@mipmap/ic_allergy"
+            android:title="Allergies" />
+        <item
+            android:id="@+id/nav_examination"
+            android:icon="@drawable/ic_examination"
+            android:title="Examination" />
+        <item
+            android:id="@+id/nav_investigation"
+            android:icon="@drawable/ic_investigation"
+            android:title="Investigation" />
+        <item
+            android:id="@+id/nav_testresults"
+            android:icon="@drawable/ic_test_result"
+            android:title="Test Results" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@mipmap/ic_feedback"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_treatment"
+            android:icon="@drawable/ic_treatment"
+            android:title="Treatment" />
+        <item
+            android:id="@+id/nav_followup"
+            android:icon="@mipmap/ic_follow_up"
+            android:title="FollowUp" />
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@mipmap/ic_summary"
+            android:title="View Summary" />
+    </group>
+
+
+</menu>

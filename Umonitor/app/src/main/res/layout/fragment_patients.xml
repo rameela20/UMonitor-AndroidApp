@@ -1,0 +1,123 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@android:color/holo_blue_light"
+    >
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="18dp"
+            android:text="New Patients"
+            android:gravity="center"
+            android:layout_span="6"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/bedNoText"
+            android:text="Bed No."
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/testText"
+            android:text="Diagnosis"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/resultText"
+            android:text="View Summary"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="1"
+            android:id="@+id/textView1"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test1Text"
+            android:text="MI"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:src="@drawable/ic_history"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="2"
+            android:id="@+id/textView2"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test2Text"
+            android:text="Glucoma"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_history"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent">
+        <TextView
+            android:text="3"
+            android:id="@+id/textView3"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/test3Text"
+            android:text="Dengue Fever"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:src="@drawable/ic_history"/>
+
+    </TableRow>
+    <Button
+        android:id="@+id/backBtn"
+        android:text="Back to Home"
+        android:width="100dp"
+        />
+
+</TableLayout>

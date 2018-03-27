@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_consultant"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_patients_consultant"
+            android:icon="@mipmap/ic_patient"
+            android:title="New patients" />
+        <item
+            android:id="@+id/nav_summary_consultant"
+            android:icon="@mipmap/ic_summary"
+            android:title="View Summary" />
+    </group>
+
+
+
+</menu>
